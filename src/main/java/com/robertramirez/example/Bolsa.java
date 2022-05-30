@@ -22,7 +22,6 @@ public class Bolsa<T> implements Iterable<T>{
     }
 
     public void add(T objeto){
-        //lista.stream().map(lista -> lista.add(objeto));
         lista.add(objeto);
     }
 
